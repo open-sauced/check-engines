@@ -31,7 +31,18 @@ npx @open-sauced/check-engines
 
 ## 🔧 Configuration
 
-The most common use case for this package is to let it run on `install` and `start` generic React applications:
+The most common use case for this package is to let it run on `install` and `start` generic `npm` scripts:
+
+```json
+{
+  "scripts": {
+    "preinstall": "npx @open-sauced/check-engines",
+    "prestart": "npx @open-sauced/check-engines"
+  }
+}
+```
+
+Or with less copy paste:
 
 ```json
 {
