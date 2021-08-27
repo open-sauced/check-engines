@@ -1,0 +1,35 @@
+{
+  "name": "@open-sauced/check-engines",
+  "version": "0.0.0",
+  "license": "MIT",
+  "bin": {
+    "check-engines": "index.js"
+  },
+  "main": "index.js",
+  "author": "TED Vortex <ted.vortex@gmail.com> (vortex.name)",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=3"
+  },
+  "bugs": "https://github.com/open-sauced/check-engines/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/open-sauced/check-engines.git"
+  },
+  "dependencies": {
+    "npm-install-checks": "^4.0.0"
+  },
+  "devDependencies": {
+    "@open-sauced/semantic-release-conventional-config": "^1.2.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^17.4.7"
+  },
+  "scripts": {
+    "push": "cz",
+    "test": "node ."
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
