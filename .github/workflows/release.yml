@@ -21,7 +21,7 @@ jobs:
       - name: "🔧 setup node"
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: 12
+          node-version: 14
 
       - name: "🔧 setup cache"
         uses: actions/cache@v2
