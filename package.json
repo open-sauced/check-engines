@@ -20,13 +20,13 @@
     "npm-install-checks": "^4.0.0"
   },
   "devDependencies": {
-    "@open-sauced/semantic-release-conventional-config": "^1.4.0",
+    "@open-sauced/semantic-release-conventional-config": "^2.0.3",
     "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0",
-    "semantic-release": "^17.4.7"
+    "cz-conventional-changelog": "^3.3.0"
   },
   "scripts": {
-    "push": "cz",
+    "push": "npx cz",
+    "semantic-release": "npx semantic-release",
     "test": "node ."
   },
   "publishConfig": {
