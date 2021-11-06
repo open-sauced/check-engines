@@ -1,3 +1,10 @@
+### [1.1.1](https://github.com/open-sauced/check-engines/compare/v1.1.0...v1.1.1) (2021-11-06)
+
+
+### Continuous Integration
+
+* improve workflow reusability across repositories ([#5](https://github.com/open-sauced/check-engines/issues/5)) ([87cc236](https://github.com/open-sauced/check-engines/commit/87cc2367ea66ee5282d2f52415c0f41411fb52e4))
+
 ## [1.1.0](https://github.com/open-sauced/check-engines/compare/v1.0.0...v1.1.0) (2021-11-01)
 
 
