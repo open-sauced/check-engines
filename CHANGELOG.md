@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/open-sauced/check-engines/compare/v1.1.1...v1.2.0) (2021-11-10)
+
+
+### Features
+
+* implement @open-sauced/conventional commit ([#7](https://github.com/open-sauced/check-engines/issues/7)) ([fbd279a](https://github.com/open-sauced/check-engines/commit/fbd279a1441ce60b3634e08e8b4fe3a612544652)), closes [#6](https://github.com/open-sauced/check-engines/issues/6)
+
 ### [1.1.1](https://github.com/open-sauced/check-engines/compare/v1.1.0...v1.1.1) (2021-11-06)
 
 
